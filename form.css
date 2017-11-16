@@ -1,0 +1,61 @@
+  .SumoSelect > .CaptionCont > label > i {
+  background-image: url("http://uploads.webflow.com/59eded395bccca00011f2d76/59f9b436269fd6000139ae15_arrow-down.svg");
+}
+  
+  .w-select {
+  	width: calc(100% + 16px);
+  }
+  
+  .select-field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0px;
+    background-position: calc(100% - 20px) 50%, 0px 0px;
+  }
+  
+  input{
+    outline: 0;
+  }
+  
+  .input-label {
+  	white-space: nowrap;
+  }
+  
+  input[type="checkbox"]{
+  	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(https://daks2k3a4ib2z.cloudfront.net/59eded395bccca00011f2d76/59fca96b463ca50001a85c52_checkbox_empty.svg);
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input[type="checkbox"]:checked {
+    background-image: url(https://daks2k3a4ib2z.cloudfront.net/59eded395bccca00011f2d76/59fca960519f780001a1d260_checkbox_checked.svg);
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    border: none;
+  }
+  
+  input[type="radio"] {
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  input[type="radio"]:checked {
+  	 background-color: #fff;
+  }
+  
+  .input-field:focus ~ .bar:before, .input-field:focus ~ .bar:after {
+    width: 50%;
+  }
+  
+  .select-field option {
+  	color:#000;
+    text-transform: none;
+  }
+  
