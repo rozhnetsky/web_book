@@ -1,1 +1,11 @@
 
+  *::before,
+  *::after {
+    flex-basis: 0;
+    order: 1;
+  }
+ 
+  a, button {
+    -webkit-highlight: none;
+    -webkit-tap-highlight-color: transparent;
+  }
