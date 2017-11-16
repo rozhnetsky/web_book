@@ -1,7 +1,4 @@
-  .SumoSelect > .CaptionCont > label > i {
-  background-image: url("http://uploads.webflow.com/59eded395bccca00011f2d76/59f9b436269fd6000139ae15_arrow-down.svg");
-}
-  
+
   .w-select {
   	width: calc(100% + 16px);
   }
